@@ -1,1 +1,53 @@
+nav li{
+	display: inline-block;
+	padding-left: 20px;
+	
+}
 
+
+nav {
+  height: 50px;
+  background-color: grey;
+  position: fixed;
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+  
+  
+}
+.image
+{
+width:50px;
+position: absolute;
+border-radius: 25px;
+
+}
+.greenbox
+{
+	width:600px;
+	height: 300px;
+    border: 10px green dotted;
+    margin: auto;
+    position: relative;
+    top:150px;
+}
+.dog
+{
+	position: absolute;
+	width:200px;
+	height:200px;
+	left:490px;
+	top:150px;
+}
+.cat
+{
+	position: relative;
+	width:200px;
+	height:200px;
+    right:90px;
+    bottom:50px;
+}
+html{
+	background: url(http://www.workingin.co.nz/wp-content/uploads/2016/12/wakato.jpg) no-repeat center fixed;
+	background-size: cover;
+}

@@ -1,40 +1,33 @@
-.outbox{
-	width:800px;
-	height:500px;
-	border: 1px black solid;
-	margin-left: auto;
-	margin-right: auto;
+
+.box1
+{
+    height: 200px;
+    width:50%;  
+    display: inline-block;
+    font-size: 0;
+}
+.box2 
+{
+	height:300px;
+	width:33.33%;
+	display: inline-block;
 	font-size: 0;
 }
-
-.box1 {
-	height:200px;
-	width:50%;
+.green{
 	background-color: green;
-	display: inline-block;
 }
-.box2{
-	height: 200px;
-	width:50%;
+.blue{
 	background-color: blue;
-	display: inline-block;
-	
 }
-.box3{
-	height: 300px;
-	width:33.33%;
-	background-color:grey;
-	display: inline-block;
-	}
-	.box4{
-	height: 300px;
-	width:33.33%;
-	background-color:black;
-	display: inline-block;
+.red{
+	background-color: red;
 }
-.box5{
-	height: 300px;
-	width:33.33%;
-	background-color:orange;
-	display: inline-block;
-	}
+.orange{
+	background-color: orange;
+}
+.yellow{
+	background-color: yellow;
+}
+main
+{font-size: 0;
+padding: 30px; }
